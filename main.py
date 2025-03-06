@@ -48,31 +48,45 @@ def define_env(env):
         return Markup(html)
 
     env.variables.stats_items = [
-        {"icon": "download", "value": "1000", "label": "Descargas"},
-        {"icon": "communities", "value": "10", "label": "Comunidades"},
-        {"icon": "people", "value": "1000", "label": "Usuarios/as"},
+        {"icon": "valve", "value": "7", "label": "Sistemas de agua"},
+        {"icon": "communities", "value": "33", "label": "Comunidades"},
+        {"icon": "account_circle", "value": "2.400", "label": "Socios y usuarios/as"},
+        {"icon": "groups", "value": "6.500", "label": "Población beneficiaria"},
+        {"icon": "download", "value": "XX", "label": "Descargas"},
     ]
 
     env.variables.testimonials_data = [
         {
-            "img_url": "https://xsgames.co/randomusers/avatar.php?g=female",
-            "name": "Ana García",
-            "title": "ACUA",
-            "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ad accusantium eos quo optio eaque repellendus provident placeat.",
+            "img_url": "assets/images/Foto_3_b.jpeg",
+            "name": "Diana",
+            "title": "Secretaria del Sistema ARA-Cangrejera",
+            "content": "Desde que usamos la aplicación de AIGAR, los socios del sistema han tomado mayor conciencia sobre el uso del agua y ahora pueden pagar fácilmente a través del banco. Gracias a esto, hemos logrado reducir significativamente la deuda y mejorar la administración del servicio.",
         },
         {
-            "img_url": "https://xsgames.co/randomusers/avatar.php?g=male",
-            "name": "Carlos Rodríguez",
-            "title": "ASAPS",
-            "content": "Quidem, numquam quae neque repellendus eum perspiciatis molestias qui consectetur voluptatibus labore.",
+            "img_url": "assets/images/Foto_4_a.jpg",
+            "name": "Nancy",
+            "title": "Secretaria del sistema JASACT",
+            "content": "La aplicación ha sido de gran ayuda para nuestro sistema de agua. Nos permite llevar un mejor control de los socios y generar los recibos en mucho menos tiempo. Antes, tardaba hasta dos días en realizarlos manualmente, pero ahora con AIGAR solo 30 minutos. Esto me da más tiempo para dedicarme a otras tareas dentro del sistema.",
+        },
+    ]
+
+    env.variables.partners_data = [
+        {
+            "logo_url": "assets/images/logos/acua.png",
+            "name": "ACUA",
+        },
+        {
+            "logo_url": "assets/images/logos/asaps.png",
+            "name": "ASAPS",
+        },
+        {"logo_url": "assets/images/logos/icarto.png", "name": "iCarto"},
+        {
+            "logo_url": "assets/images/logos/isf.jpg",
+            "name": "Ingeniería Sin Fronteras",
         },
     ]
 
     env.variables.funders_data = [
-        {
-            "logo_url": "assets/images/logos/isf.png",
-            "name": "Ingeniería Sin Fronteras",
-        },
         {
             "logo_url": "assets/images/logos/xunta.png",
             "name": "Cooperación Galega",

@@ -1,0 +1,11 @@
+<div class="partners">
+  {% for item in partners_data %}
+  <div class="partners__item">
+    <img
+      src="{{ item.logo_url }}"
+      alt="{{ item.name }}"
+      class="partners__logo"
+    />
+  </div>
+  {% endfor %}
+</div>

@@ -1,24 +1,28 @@
-.funders {
+.funders,
+.partners {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 1rem;
   margin: 2rem 0;
 }
 
 @media only screen and (min-width: 768px) {
-  .funders {
+  .funders,
+  .partners {
     column-gap: 6rem;
   }
 }
 
-.funders__item {
+.funders__item,
+.partners__item {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 160px;
 }
 
-.funders__logo {
+.funders__logo,
+.partners__logo {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
