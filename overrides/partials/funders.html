@@ -1,0 +1,11 @@
+<div class="funders">
+  {% for item in funders_data %}
+  <div class="funders__item">
+    <img
+      src="{{ item.logo_url }}"
+      alt="{{ item.name }}"
+      class="funders__logo"
+    />
+  </div>
+  {% endfor %}
+</div>

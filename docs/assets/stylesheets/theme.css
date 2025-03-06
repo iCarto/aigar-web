@@ -1,0 +1,49 @@
+:root {
+  /* Primary color shades */
+  --md-primary-fg-color: #025eaa;
+  --md-primary-fg-color--light: #ddebff;
+  --md-primary-fg-color--dark: #00357a;
+
+  /* Accent color shades*/
+  --md-accent-fg-color: #aa9202;
+  --md-accent-fg-color--transparent: #aa92021a;
+  --sidebar-width: 8rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: var(--md-primary-fg-color--dark);
+}
+
+.md-typeset h1 {
+  font-size: 2.25rem;
+}
+
+.md-typeset h2 {
+  font-size: 2rem;
+}
+
+.md-typeset h3 {
+  font-size: 1.75rem;
+}
+
+.md-typeset iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-self: center;
+  border: solid 3px var(--md-accent-fg-color);
+  border-radius: 5px;
+}
+
+/* Hide page titles */
+#inicio,
+#que-es-aigar {
+  display: none;
+}

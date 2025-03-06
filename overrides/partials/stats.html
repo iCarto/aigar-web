@@ -1,0 +1,9 @@
+<div class="stats">
+  {% for item in stats_items %}
+  <div class="stats__item">
+    <i class="material-symbols-outlined">{{ item.icon }}</i>
+    <p>{{ item.value }}</p>
+    <p>{{ item.label }}</p>
+  </div>
+  {% endfor %}
+</div>

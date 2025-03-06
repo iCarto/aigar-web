@@ -1,0 +1,18 @@
+<div class="testimonials">
+  {% for item in testimonials_data %}
+  <div class="testimonials__card">
+    <div class="testimonials__content">{{ item.content }}</div>
+    <div class="testimonials__author">
+      <img
+        src="{{ item.img_url }}"
+        alt="{{ item.name }}"
+        class="testimonials__author-image"
+      />
+      <div class="testimonials__author-info">
+        <span class="testimonials__author-name">{{ item.name }}</span>
+        <span class="testimonials__author-title">{{ item.title }}</span>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,19 +1,60 @@
 site_name: AIGAR
 site_url: https://icarto.github.io/aigar-web
 copyright: >
-  Copyright &copy; 2025 <a href="https://icarto.es">iCarto</a> (Innovación, Cooperación, Cartografía y Territorio S.L.) –
-  <a href="#__consent">Cookies</a>
+  Copyright &copy; 2025 <a href="https://icarto.es">iCarto</a> (Innovación, Cooperación, Cartografía y Territorio S.L.)
+
 theme:
   name: material
+  language: es
+  custom_dir: overrides
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+  font:
+    text: Montserrat
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    primary: custom
+    accent: custom
+
+nav:
+  - Inicio: index.md
+  - Qué es AIGAR: about.md
+  - Descargas: downloads.md
+  - Metodología: methodology.md
+  - Estado del proyecto: project.md
+  - Contacto: contact.md
 
 extra:
   analytics:
     provider: google
-    property: G-9LV1TVZG8C
+    property: G-9LV1TVZG8CP
 
   consent:
     title: Consentimiento de Cookies
     description: >-
-      Usamos cookies para contabilizar el número de visitas a la  página web
+      Usamos cookies para contabilizar el número de visitas a la página web
       y las descargas de la aplicación. Con su consentimiento nos ayuda a
       hacer esta página web más útil y mejorar la aplicación.
+
+extra_css:
+  - assets/stylesheets/main.css
+
+extra_javascript:
+  - assets/javascript/counter.js
+
+plugins:
+  - macros:
+      include_dir: overrides
+      module_name: main
+      verbose: true
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tabbed:
+      alternate_style: true

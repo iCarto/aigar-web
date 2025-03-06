@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: calc(-1 * 8.5rem);
+  margin-top: -3rem;
+  width: 100vw;
+  padding: 3rem;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      var(--md-primary-fg-color--dark)
+    ),
+    url("https://icarto.es/www/wp-content/uploads/2020/05/splash_aigar_web_icarto.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    margin-left: 0;
+  }
+}
+
+.hero-overlay {
+  width: 50%;
+}
+
+.hero-text {
+  max-width: 50%;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1rem;
+  line-height: 1.5;
+}

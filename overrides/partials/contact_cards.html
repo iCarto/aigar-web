@@ -1,0 +1,33 @@
+<div class="contacts">
+  {% for item in contacts_data %}
+  <div class="contacts__card">
+    <div class="contacts__img-container">
+      {{ image(item.logo_url, item.name) }}
+    </div>
+    <div class="contacts__info">
+      <div class="contacts__info-item">
+        <i class="contacts__icon material-symbols-outlined">email</i>
+        <a href="mailto:{{ item.email }}" class="contacts__email"
+          >{{ item.email }}</a
+        >
+      </div>
+      <div class="contacts__info-item">
+        <i class="contacts__icon material-symbols-outlined">phone</i>
+        <a href="tel:{{ item.phone }}" class="contacts__phone"
+          >{{ item.phone }}</a
+        >
+      </div>
+      <div class="contacts__info-item">
+        <i class="contacts__icon material-symbols-outlined">location_on</i>
+        <span class="contacts__location">{{ item.location }}</span>
+      </div>
+    </div>
+    <button
+      class="md-button md-button--primary contacts__button"
+      onclick="window.location.href='{{ item.url }}'"
+    >
+      Visita la web
+    </button>
+  </div>
+  {% endfor %}
+</div>
