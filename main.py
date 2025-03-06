@@ -38,7 +38,7 @@ def define_env(env):
 
         content_md = markdown(content_md)
         html = dedent(
-            f"""<div class="text-media text-media-{media_position}">
+            f"""<div class="text-media text-media--{media_position}">
                         <div class="text-media__content">
                             {content_md}
                         </div> 
@@ -67,6 +67,12 @@ def define_env(env):
             "name": "Nancy",
             "title": "Secretaria del sistema JASACT",
             "content": "La aplicación ha sido de gran ayuda para nuestro sistema de agua. Nos permite llevar un mejor control de los socios y generar los recibos en mucho menos tiempo. Antes, tardaba hasta dos días en realizarlos manualmente, pero ahora con AIGAR solo 30 minutos. Esto me da más tiempo para dedicarme a otras tareas dentro del sistema.",
+        },
+        {
+            "img_url": "assets/images/Foto_7.jpeg",
+            "name": "Iris",
+            "title": "Secretaria del sistema ASCATLI",
+            "content": "Antes de usar AIGAR, tardaba hasta seis días en hacer los recibos manualmente, escribiendo tres copias por socio y organizando la información en papel. Además, debía llenar siete catastros con las lecturas de medidores, lo que consumía aún más tiempo. Ahora, con la aplicación, los recibos están listos en solo unas horas, y todo el proceso es mucho más rápido y organizado. Ya no uso papel, lápiz ni calculadora, porque toda la información de los socios y medidores está en el celular. Incluso la Junta recibe automáticamente los datos bancarios en línea, lo que facilita mucho su trabajo.",
         },
     ]
 

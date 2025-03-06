@@ -1,0 +1,20 @@
+{% if testimonials_data[2] %}
+<div class="testimonials__card">
+  <div class="testimonials__content">{{ testimonials_data[2].content }}</div>
+  <div class="testimonials__author">
+    <img
+      src="{{ testimonials_data[2].img_url }}"
+      alt="{{ testimonials_data[2].name }}"
+      class="testimonials__author-image"
+    />
+    <div class="testimonials__author-info">
+      <span class="testimonials__author-name"
+        >{{ testimonials_data[2].name }}</span
+      >
+      <span class="testimonials__author-title"
+        >{{ testimonials_data[2].title }}</span
+      >
+    </div>
+  </div>
+</div>
+{% endif %}
