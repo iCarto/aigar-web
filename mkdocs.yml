@@ -54,7 +54,11 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - def_list
   - pymdownx.superfences
-  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true

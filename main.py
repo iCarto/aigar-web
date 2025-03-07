@@ -26,23 +26,25 @@ def define_env(env):
         if media_type == "video":
             media_html = dedent(
                 f"""
-                <div>
+                <div class="text-media__video">
                     <iframe src="{media_path}" title="{media_alt}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 """
             )
         else:
             media_html = dedent(
-                f"""<div class="text-media__image" style="background-image: url({fix_url(media_path)});" aria-label="{media_alt}"/>"""
+                f"""<div class="text-media__image" style="background-image: url({fix_url(media_path)});" aria-label="{media_alt}"></div>"""
             )
 
         content_md = markdown(content_md)
         html = dedent(
             f"""<div class="text-media text-media--{media_position}">
-                        <div class="text-media__content">
+                        <div class="text-media__text">
                             {content_md}
-                        </div> 
+                        </div>
+                        <div class="text-media__media"> 
                             {media_html}
+                        </div>
                     </div>"""
         )
         return Markup(html)

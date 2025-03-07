@@ -2,54 +2,44 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 1rem 0;
+  gap: 1rem;
 }
 
-.text-media__content {
+.text-media__text {
+  grid-area: text;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 1rem;
   padding-right: 2rem;
 }
 
 .text-media__image {
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: top;
   background-repeat: no-repeat;
+  margin-top: 0.75rem;
 }
 
 /* Media in the left column */
 .text-media--left {
-  grid-template-areas: "media content";
-}
-
-.text-media--left .text-media__media {
-  grid-area: media;
-}
-
-.text-media--left .text-media__content {
-  grid-area: content;
+  grid-template-areas: "media text";
 }
 
 /* Media in the right column */
 .text-media--right {
-  grid-template-areas: "content media";
+  grid-template-areas: "text media";
 }
 
+.text-media--left .text-media__media,
 .text-media--right .text-media__media {
-  grid-area: media;
-}
-
-.text-media--right .text-media__content {
-  grid-area: content;
+  grid-area: "media";
 }
 
 @media only screen and (max-width: 768px) {
   .text-media {
     grid-template-columns: 1fr;
-    gap: 1rem;
   }
 
   .text-media--left,
