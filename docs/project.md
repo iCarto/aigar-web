@@ -6,6 +6,6 @@ hide:
 
 # Dónde se está implementando
 
-{% include "partials/where.html" %}
+<div class="where">{% include "partials/where.html" %}</div>
 
-{% include "partials/testimonial_about.html" %}
+<div class="where__testimonial">{% include "partials/testimonial_about.html" %}</div>
