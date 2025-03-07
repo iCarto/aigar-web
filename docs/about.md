@@ -45,5 +45,3 @@ AIGAR facilita el trabajo de la Junta de Agua administradora de los SAPS, reduce
 
 - Reduce costos en papelería con procesos digitales.
 - Optimiza la gestión administrativa, haciéndola más rápida y eficiente.
-
-{% include "partials/testimonial_about.html" %}

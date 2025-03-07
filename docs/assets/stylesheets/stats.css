@@ -1,11 +1,16 @@
 .stats {
+  margin: 4rem 0;
+}
+
+.stats__content {
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  margin: 3rem 2rem 2rem;
+  margin: 0 2rem;
+  margin-top: 3rem;
 }
 
 .stats__item {

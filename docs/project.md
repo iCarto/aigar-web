@@ -4,5 +4,8 @@ hide:
   - toc
 ---
 
-- Número de comunidades que están usando la app. Testimonios… Carrusel con testimonios. Y descripción de los sistemas y comunidades.
-- Mapa de implementación.
+# Dónde se está implementando
+
+{% include "partials/where.html" %}
+
+{% include "partials/testimonial_about.html" %}
