@@ -26,25 +26,23 @@ def define_env(env):
         if media_type == "video":
             media_html = dedent(
                 f"""
-                <div class="text-media__video">
+                <div>
                     <iframe src="{media_path}" title="{media_alt}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 """
             )
         else:
             media_html = dedent(
-                f"""<div class="text-media__image" style="background-image: url({fix_url(media_path)});" aria-label="{media_alt}"></div>"""
+                f"""<div class="text-media__image" style="background-image: url({fix_url(media_path)});" aria-label="{media_alt}"/>"""
             )
 
         content_md = markdown(content_md)
         html = dedent(
             f"""<div class="text-media text-media--{media_position}">
-                        <div class="text-media__text">
+                        <div class="text-media__content">
                             {content_md}
-                        </div>
-                        <div class="text-media__media"> 
+                        </div> 
                             {media_html}
-                        </div>
                     </div>"""
         )
         return Markup(html)
@@ -104,20 +102,20 @@ def define_env(env):
 
     env.variables.contacts_data = [
         {
+            "name": "ASAPS",
+            "email": "asapssistemasdeagua@gmail.com",
+            "phone": "+503 2314 0015",
+            "location": "Barrio la Cruz Avenida Monseñor Romero #30. </br> Zaragoza, La Libertad Este, El Salvador",
+            "url": "https://www.acua.org.sv/",
+            "logo_url": "assets/images/logos/asaps.png",
+        },
+        {
             "name": "ACUA",
             "email": "email@email.com",
             "phone": "+503 2314 0636",
             "location": "Barrio la Cruz, Avenida Monseñor Romero #31. </br> Zaragoza, La Libertad, El Salvador",
             "url": "https://www.acua.org.sv/",
             "logo_url": "assets/images/logos/acua.png",
-        },
-        {
-            "name": "ASAPS",
-            "email": "email@email.com",
-            "phone": "+34 123 456 789",
-            "location": "San Salvador, El Salvador",
-            "url": "https://www.acua.org.sv/",
-            "logo_url": "assets/images/logos/asaps.jpg",
         },
         {
             "name": "iCarto",

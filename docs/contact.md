@@ -4,6 +4,6 @@ hide:
   - toc
 ---
 
-- Quizás un pequeño texto explicando porqué deberías contactar antes de lanzarte a usar la app, la responsabilidad de cada uno, ...
+Si te interesa implementar la aplicación en tu Sistema de Agua, las siguientes organizaciones te podrán ayudar tanto con la herramienta como con la metodología.
 
 {% include "partials/contact_cards.html" %}
