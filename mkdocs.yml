@@ -1,7 +1,7 @@
 site_name: AIGAR
 site_url: https://icarto.github.io/aigar-web
 copyright: >
-  Copyright &copy; 2025 <a href="https://icarto.es">iCarto</a> (Innovación, Cooperación, Cartografía y Territorio S.L.)
+  Copyright &copy; 2025 <a href="https://icarto.es">iCarto</a> - Innovación, Cooperación, Cartografía y Territorio S.L.
 
 theme:
   name: material
@@ -30,7 +30,7 @@ nav:
 extra:
   analytics:
     provider: google
-    property: G-9LV1TVZG8CP
+    property: G-9LV1TVZG8C
 
   consent:
     title: Consentimiento de Cookies

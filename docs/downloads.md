@@ -24,7 +24,7 @@ Para instalarlo en el teléfono móvil se seguirán los siguientes pasos:
 
 [AIGAR-Escritorio](https://github.com/iCarto/aigar-web/releases/download/250303/250303_aigar.zip) v250303. Aplicación de escritorio.
 
-Se sumnisitran dos archivos:
+Se suministran dos archivos:
 
 <ol>
   <li>
@@ -46,7 +46,7 @@ Se sumnisitran dos archivos:
 
 Se ejecutará la aplicación dando clic al archivo `AIGAR.exe`.
 
-La aplicación es una herremienta asociada a una [metodología](methodology.md) para fortalecer la gestión organizativa y adminsitrativa de las Juntas de Agua. Antes de poder implementarlo se necesitará trabajar conjuntamente con la Junta de Agua para revisar los procesos adminsitrativos, el reglamento y actualizar el catastro de los socios tanto en visitas en campo como online.
+La aplicación es una herramienta asociada a una [metodología](methodology.md) para fortalecer la gestión organizativa y administrativa de las Juntas de Agua. Antes de poder implementarlo se necesitará trabajar conjuntamente con la Junta de Agua para revisar los procesos administrativos, el reglamento y actualizar el catastro de los socios tanto en visitas en campo como online.
 
 !!! warning "Se recomienda [consultar](contact.md) con ASAPS para conocer el proceso de incorporación de AIGAR en tu Junta de Agua."
 
