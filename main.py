@@ -81,15 +81,22 @@ def define_env(env):
         {
             "logo_url": "assets/images/logos/acua.png",
             "name": "ACUA",
+            "url": "https://www.acua.org.sv/",
         },
         {
             "logo_url": "assets/images/logos/asaps.png",
             "name": "ASAPS",
+            "url": "",
         },
-        {"logo_url": "assets/images/logos/icarto.png", "name": "iCarto"},
+        {
+            "logo_url": "assets/images/logos/icarto.png",
+            "name": "iCarto",
+            "url": "https://icarto.es",
+        },
         {
             "logo_url": "assets/images/logos/isf.jpg",
             "name": "Ingeniería Sin Fronteras",
+            "url": "https://www.isf.es/",
         },
     ]
 
@@ -97,8 +104,13 @@ def define_env(env):
         {
             "logo_url": "assets/images/logos/xunta.png",
             "name": "Cooperación Galega",
+            "url": "https://cooperacion.xunta.gal/",
         },
-        {"logo_url": "assets/images/logos/aecid.png", "name": "AECID"},
+        {
+            "logo_url": "assets/images/logos/aecid.png",
+            "name": "AECID",
+            "url": "https://www.cooperacionespanola.es/",
+        },
     ]
 
     env.variables.contacts_data = [
