@@ -1,7 +1,8 @@
 from mkdocs_macros.context import fix_url
 from textwrap import dedent
-from markdown2 import markdown
 from markupsafe import Markup
+
+import markdown as md
 
 
 def define_env(env):
@@ -36,7 +37,7 @@ def define_env(env):
                 f"""<div class="text-media__image" style="background-image: url({fix_url(media_path)});" aria-label="{media_alt}"/>"""
             )
 
-        content_md = markdown(content_md)
+        content_md = md.markdown(content_md)
         html = dedent(
             f"""<div class="text-media text-media--{media_position}">
                         <div class="text-media__content">
