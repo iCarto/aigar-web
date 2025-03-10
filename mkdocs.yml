@@ -42,9 +42,6 @@ extra:
 extra_css:
   - assets/stylesheets/main.css
 
-extra_javascript:
-  - assets/javascript/counter.js
-
 plugins:
   - macros:
       include_dir: overrides
