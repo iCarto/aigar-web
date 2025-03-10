@@ -18,15 +18,18 @@
   text-align: center;
 }
 
-.stats__item:not(:last-child)::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -32px;
-  width: 1px;
-  height: 75%;
-  transform: translateY(-50%);
-  background-color: #d2d6dc;
+@media only screen and (min-width: 768px) {
+  /* Grey separating line */
+  .stats__item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -32px;
+    width: 1px;
+    height: 75%;
+    transform: translateY(-50%);
+    background-color: #d2d6dc;
+  }
 }
 
 .stats__item i {

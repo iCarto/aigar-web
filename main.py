@@ -20,7 +20,7 @@ def define_env(env):
 
     @env.macro
     def text_media_layout(
-        content_md,
+        text_md,
         media_path,
         media_alt="",
         media_type="image",
@@ -36,14 +36,14 @@ def define_env(env):
             )
         else:
             media_html = dedent(
-                f"""<div class="text-media__image" style="background-image: url({fix_url(media_path)});" aria-label="{media_alt}"/>"""
+                f"""<img src="{fix_url(media_path)}" alt="{media_alt}" class="text-media__image">"""
             )
 
-        content_md = md.markdown(content_md)
+        text_md = md.markdown(text_md)
         html = dedent(
             f"""<div class="text-media text-media--{media_position}">
-                        <div class="text-media__content">
-                            {content_md}
+                        <div class="text-media__text">
+                            {text_md}
                         </div> 
                             {media_html}
                     </div>"""

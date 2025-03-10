@@ -1,4 +1,9 @@
 .where__testimonial {
-  margin: 4rem;
-  margin-bottom: 0;
+  margin: 4rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .where__testimonial {
+    margin: 4rem;
+  }
 }
