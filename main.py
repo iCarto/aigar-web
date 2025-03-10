@@ -55,7 +55,6 @@ def define_env(env):
         {"icon": "communities", "value": "33", "label": "Comunidades"},
         {"icon": "account_circle", "value": "2.400", "label": "Socios y usuarios/as"},
         {"icon": "groups", "value": "6.500", "label": "Población beneficiaria"},
-        {"icon": "download", "value": "XX", "label": "Descargas"},
     ]
 
     env.variables.testimonials_data = [
