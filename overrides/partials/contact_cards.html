@@ -2,7 +2,7 @@
   {% for item in contacts_data %}
   <div class="contacts__card">
     <div class="contacts__img-container">
-      {{ image(item.logo_url, item.name) }}
+      {{ image(item.logo_url, item.name, "", item.url) }}
     </div>
     <div class="contacts__info">
       <div class="contacts__info-item">
@@ -22,12 +22,6 @@
         <span class="contacts__location">{{ item.location }}</span>
       </div>
     </div>
-    <button
-      class="md-button md-button--primary contacts__button"
-      onclick="window.location.href='{{ item.url }}'"
-    >
-      Visita la web
-    </button>
   </div>
   {% endfor %}
 </div>

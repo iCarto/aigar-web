@@ -7,9 +7,11 @@ import markdown as md
 
 def define_env(env):
     @env.macro
-    def image(url: str, alt: str = "", class_name: str = "") -> str:
-        url = fix_url(url)
-        return f'<img src="{url}" alt="{alt}" class="{class_name}">'
+    def image(src: str, alt: str = "", class_name: str = "", link_url: str = "") -> str:
+        src = fix_url(src)
+        if link_url:
+            return f'<a href="{link_url}" target="_blank" rel="noopener noreferrer"><img src="{src}" alt="{alt}" class="{class_name}"></a>'
+        return f'<img src="{src}" alt="{alt}" class="{class_name}">'
 
     @env.macro
     def internal_link(url: str, text: str, class_name: str = "") -> str:
@@ -118,15 +120,15 @@ def define_env(env):
             "name": "ASAPS",
             "email": "asapssistemasdeagua@gmail.com",
             "phone": "+503 2314 0015",
-            "location": "Barrio la Cruz Avenida Monseñor Romero #30. </br> Zaragoza, La Libertad Este, El Salvador",
-            "url": "https://www.acua.org.sv/",
+            "location": "Barrio la Cruz Avenida Monseñor Romero #30. </br> Zaragoza, La Libertad Este, </br>El Salvador",
+            "url": "",
             "logo_url": "assets/images/logos/asaps.png",
         },
         {
             "name": "ACUA",
-            "email": "email@email.com",
-            "phone": "+503 2314 0636",
-            "location": "Barrio la Cruz, Avenida Monseñor Romero #31. </br> Zaragoza, La Libertad, El Salvador",
+            "email": "recepcion@acua.org.sv",
+            "phone": "+503 2314 0837",
+            "location": "Zaragoza, La Libertad, El Salvador",
             "url": "https://www.acua.org.sv/",
             "logo_url": "assets/images/logos/acua.png",
         },

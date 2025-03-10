@@ -32,7 +32,6 @@
 
 .contacts__info {
   width: 100%;
-  margin-bottom: 1rem;
 }
 
 .contacts__info-item {
@@ -49,9 +48,4 @@
   background-size: cover;
   font-size: 20px;
   color: #555;
-}
-
-.contacts__button {
-  margin-top: auto;
-  width: 100%;
 }
