@@ -1,20 +1,14 @@
-/* Keep main page title in header */
-/* .md-header__ellipsis .md-header__topic:first-child {
-  opacity: 1;
-  transform: translateX(0);
-  visibility: visible;
-  position: static;
-} */
+/* Hid main page title in header in desktop */
+@media only screen and (min-width: 768px) {
+  .md-header__title {
+    display: none;
+  }
+}
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .md-header__ellipsis .md-header__topic:first-child {
     font-size: 0.5rem;
   }
-} */
-
-/* Hide current page title in header */
-.md-header__ellipsis .md-header__topic:last-child {
-  display: none;
 }
 
 .md-header__button.md-logo {
