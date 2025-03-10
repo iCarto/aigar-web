@@ -8,12 +8,34 @@ hide:
 
 ### AIGAR-Lecturas
 
-[AIGAR-Lecturas](https://github.com/iCarto/aigar-web/releases/download/250303/250303_aigar-lecturas.apk). v250303. Aplicación móvil.
+Sigue estos pasos para instalar la aplicación AIGAR-Lecturas en tu celular.
 
-Para instalarlo en el teléfono móvil se seguirán los siguientes pasos:
+<ol>
+  <li>
+    <h4>Descargar la aplicación</h4>
+    <a href="https://github.com/iCarto/aigar-web/releases/download/250303/250303_aigar-lecturas.apk" class="downloads__link">
+      <span class="material-symbols-outlined">download_for_offline</span> AIGAR-Lecturas v250303
+    </a>
+    <p>
+      <strong>¿Qué es este archivo?</strong><br>
+      Es un archivo APK que contiene la aplicación AIGAR-Lecturas. El código <code>aammdd</code> en el nombre indica la fecha de la versión. Por ejemplo, <code>250303_aigar-lecturas.apk</code> corresponde a la versión del 3 de marzo de 2025.
+    </p>
+  </li>
 
-1. Copiar el archivo **aigar-lecturas.apk** en el teléfono
-2. Instalar la app AIGAR-Lecturas
+  <li>
+    <h4>Copiar el archivo al teléfono</h4>
+    <p>
+      Copia el archivo <code>aigar-lecturas.apk</code> descargado en tu celular, ya sea mediante cable USB o usando una aplicación de transferencia de archivos.
+    </p>
+  </li>
+
+  <li>
+    <h4>Instalar la aplicación</h4>
+    <p>
+      Una vez copiado el archivo en tu celular, abre el archivo <code>aigar-lecturas.apk</code> para iniciar la instalación. Sigue las instrucciones en pantalla para completar el proceso.
+    </p>
+  </li>
+</ol>
 
 !!! info "Requisitos tecnológicos"
 
@@ -22,33 +44,59 @@ Para instalarlo en el teléfono móvil se seguirán los siguientes pasos:
 
 ### AIGAR-Escritorio
 
-[AIGAR-Escritorio](https://github.com/iCarto/aigar-web/releases/download/250303/250303_aigar.zip) v250303. Aplicación de escritorio.
-
-Se suministran dos archivos:
+Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador.
 
 <ol>
   <li>
-    <strong>aammdd_AIGAR.zip</strong>. 
-    <p>Consiste en la aplicación de escritorio donde <code>aammdd</code> es la fecha de la versión. Por ejemplo <code>240126_AIGAR.zip</code> significa que es la versión de AIGAR de fecha 26 de Enero de 2024.</p>
-    <p>La aplicación se descomprimirá preferiblemente en <code>C:\</code>. Para facilitar el acceso a la aplicación, se recomienda crear un acceso directo y trasladarlo al escritorio.</p>
+    <h4>Descargar la aplicación</h4>
+    <a href="https://github.com/iCarto/aigar-web/releases/download/250303/250303_aigar.zip" class="downloads__link"><span class="material-symbols-outlined">download_for_offline</span> AIGAR-Escritorio v250303</a>
+    <p>
+      <strong>¿Qué contiene?</strong><br>
+      Es un archivo comprimido (<code>aammdd_AIGAR.zip</code>) que contiene la aplicación.
+      El código <code>aammdd</code> en el nombre indica la fecha de la versión.
+      Por ejemplo, <code>250303_AIGAR.zip</code> corresponde a la versión del 3 de marzo de 2025.
+    </p>
+    <p>
+      <strong>Cómo instalar</strong><br>
+      1. Descarga el archivo <code>.zip</code> y descomprímelo en <code>C:\</code>.<br>
+      2. Para facilitar el acceso, crea un acceso directo del archivo <code>AIGAR.exe</code> y muévelo al escritorio.
+    </p>
   </li>
+
   <li>
-    <strong>aammdd_aigar_data.zip</strong>.
-    <p>Contiene la Base de Datos e información configurable para cada Junta de Agua. Se suministra una base de datos vacía con la estructura predefinida y una base de datos de prueba con un ejemplo de una Junta de Agua ficticia.</p>
-    <p>Es un directorio que debemos descomprimir en la carpeta Mis Documentos. Por ejemplo en <code>C:\Usuarios\&lt;Mi Usuario&gt;\Mis Documentos\aigar_data</code>. Dentro de esta carpeta estarán los siguientes archivos:</p>
-    <ul>
-      <li><strong>db.sqlite3</strong>. Es la base de datos de la aplicación. Para hacer copias de seguridad, copie este fichero a USB externo.</li>
-      <li><strong>plantilla_recibo.docx</strong>. Es la plantilla usada para imprimir recibos. Puede ser modificada si se conoce bien la sintaxis.</li>
-      <li><strong>logo.png</strong>. Es el logo del SAPS que se usará en los recibos impresos. El fichero que se proporciona por defecto debe ser substituido por el real de la Junta de Agua, respetando el tamaño del fichero original: 191 x 191 y el formato .png.</li>
-    </ul>
+    <h4>Descargar la base de datos</h4>
+
+    <h5>Opción 1: Base de datos vacía</h5>
+
+<a href="https://github.com/iCarto/aigar-web/releases/download/250303/aigar_data_vacia.zip" class="downloads__link"><span class="material-symbols-outlined">download_for_offline</span> Descargar base de datos vacía</a>
+
+<p>
+<strong>¿Qué contiene?</strong><br> - Una base de datos vacía, pero con la estructura lista para configurar los datos de cada Junta de Agua.<br> - Debe descomprimirse en la carpeta <strong>Mis Documentos</strong>, por ejemplo:
+<code>C:\Usuarios\&lt;MiUsuario&gt;\Mis Documentos\aigar_data</code>.
+</p>
+<p><strong>Archivos incluidos:</strong></p>
+<ul>
+<li><strong>db.sqlite3</strong> → Base de datos principal. Para copias de seguridad, copiar este archivo a un USB u otro almacenamiento externo.</li>
+<li><strong>plantilla_recibo.docx</strong> → Plantilla para imprimir recibos. Puede modificarse si se conoce su sintaxis.</li>
+<li><strong>logo.png</strong> → Logo del SAPS para los recibos. Se debe reemplazar con el logo de la Junta de Agua, manteniendo el formato <code>.png</code> y tamaño <strong>191x191 px</strong>.</li>
+</ul>
+
+    <h5>Opción 2: Base de datos de ejemplo</h5>
+
+<a href="https://github.com/iCarto/aigar-web/releases/download/250303/aigar_data_ejemplo.zip" class="downloads__link"><span class="material-symbols-outlined">download_for_offline</span> Descargar base de datos ficticia</a>
+
+<p>
+<strong>¿Qué contiene?</strong><br> - Un ejemplo pre-cargado de una Junta de Agua ficticia, útil para pruebas y exploración de la aplicación.
+</p>
+
+  </li>
+
+  <li>
+    <h4>Ejecutar la aplicación</h4>
+    <ol>
+    <li>Haz doble clic en <code>AIGAR.exe</code> dentro de la carpeta donde descomprimiste la aplicación.</li></ol>
   </li>
 </ol>
-
-Se ejecutará la aplicación dando clic al archivo `AIGAR.exe`.
-
-La aplicación es una herramienta asociada a una [metodología](methodology.md) para fortalecer la gestión organizativa y administrativa de las Juntas de Agua. Antes de poder implantarla se necesitará trabajar conjuntamente con la Junta de Agua para revisar los procesos administrativos, el reglamento y actualizar el catastro de personas socias.
-
-!!! warning "Se recomienda [consultar](contact.md) con ASAPS para conocer el proceso de incorporación de AIGAR en tu Junta de Agua."
 
 !!! info "Requisitos tecnológicos"
 
@@ -57,9 +105,7 @@ La aplicación es una herramienta asociada a una [metodología](methodology.md) 
       - [ ] 300MB de espacio libre en disco
       - [ ] 4GB de RAM mínimo
 
-## Código fuente
-
-El código fuente puede ser descargado desde el (repositorio de GitHub).
+!!! warning "Esta aplicación está diseñada para apoyar la gestión organizativa y administrativa de las Juntas de Agua. Antes de implementarla, se recomienda trabajar con la Junta de Agua para revisar los procesos administrativos y el reglamento y actualizar el catastro de personas socias. Para más detalles, consulta la <a href="methodology.md">metodología</a> y [contacta](contact.md) con ASAPS para definir el proceso de implantación de AIGAR en tu Junta de Agua."
 
 ## Requisitos del Sistema de Agua
 
@@ -87,11 +133,12 @@ El código fuente puede ser descargado desde el (repositorio de GitHub).
 - [ ] Catastro único y actualizado de usuarios
 - [ ] Herramientas de gestión administrativa
 
-## Documentación
+## Documentación y código
 
 Además de la aplicación y los datos de prueba, existe numerosa documentación de apoyo para implantar AIGAR:
 
-- [Software y datos de prueba]()
+- [Repositorio de Github de AIGAR-Lecturas](https://github.com/iCarto/aigar-lecturas)
+- [Repositorio de Github de AIGAR-Escritorio](https://github.com/iCarto/aigar)
 - [Manual de usuario de AIGAR (Pendiente)]()
 - [Video manual de AIGAR-Lecturas (Pendiente)]()
 - [Video manual de AIGAR-Escritorio (Pendiente)]()
