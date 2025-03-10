@@ -6,7 +6,7 @@ hide:
 
 # Historia
 
-En 2018 se desarrolla una aplicación piloto diseñada juntamente con la Asociación Unida por el Agua y la Agricultura (ACUA), Ingeniería Sin Fronteras Cataluña e iCarto tomando como metodología la forma de trabajo de la Junta de Agua ASCATLI que administra el Sistema de Agua Potable que comprende las comunidades de Tihuapa Norte y Tlacuxtli, en el distrito la Libertad, en El Salvador.
+En 2018 se desarrolla una aplicación piloto diseñada juntamente con la [Asociación Unida por el Agua y la Agricultura (ACUA)](https://www.acua.org.sv/), [Ingeniería Sin Fronteras Cataluña](https://esf-cat.org/es/) e [iCarto](https://icarto.es/) tomando como metodología la forma de trabajo de la Junta de Agua ASCATLI que administra el Sistema de Agua Potable que comprende las comunidades de Tihuapa Norte y Tlacuxtli, en el distrito la Libertad, en El Salvador.
 
 Posteriormente, la Asociación de Sistemas Autónomos de Agua Potable y Saneamiento (ASAPS) se interesa por implementar nuevas tecnologías en los procesos de gestión técnica y administrativa de sus 20 Sistemas de Agua socios y, conjuntamente con ACUA, diseña una nueva versión para que pueda ser usada por cualquiera de sus Sistemas de Agua Potable.
 
@@ -16,7 +16,7 @@ Teniendo en cuenta la importancia de mejorar la competencia administrativa y org
 
 Las aplicaciones son fáciles de instalar, con licencia de software libre y gratuitas.
 
-En las pruebas piloto se constató que aunque el uso de las aplicaciones es muy sencillo, es necesario contar con el apoyo de una institución como ASAPS para ayudar en la implementación y configuración del sistema, así como en la resolución de dudas que puedan surgir. Por este motivo, conjuntamente con la aplicación se desarrolla una [metodología](metodologia.md) para implementar la aplicación.
+En las pruebas piloto se constató que aunque el uso de las aplicaciones es muy sencillo, es necesario contar con el apoyo de una institución como ASAPS para ayudar en la implementación y configuración del sistema, así como en la resolución de dudas que puedan surgir. Por ello, junto con la aplicación, se desarrolla una [metodología](methodology.md) para su implementación.
 
 {% include "partials/apps.html" %}
 

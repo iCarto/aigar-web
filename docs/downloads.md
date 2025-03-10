@@ -46,7 +46,7 @@ Se suministran dos archivos:
 
 Se ejecutará la aplicación dando clic al archivo `AIGAR.exe`.
 
-La aplicación es una herramienta asociada a una [metodología](methodology.md) para fortalecer la gestión organizativa y administrativa de las Juntas de Agua. Antes de poder implementarlo se necesitará trabajar conjuntamente con la Junta de Agua para revisar los procesos administrativos, el reglamento y actualizar el catastro de los socios tanto en visitas en campo como online.
+La aplicación es una herramienta asociada a una [metodología](methodology.md) para fortalecer la gestión organizativa y administrativa de las Juntas de Agua. Antes de poder implantarla se necesitará trabajar conjuntamente con la Junta de Agua para revisar los procesos administrativos, el reglamento y actualizar el catastro de personas socias.
 
 !!! warning "Se recomienda [consultar](contact.md) con ASAPS para conocer el proceso de incorporación de AIGAR en tu Junta de Agua."
 
@@ -69,7 +69,7 @@ El código fuente puede ser descargado desde el (repositorio de GitHub).
 
 ### Requisitos de Gestión
 
-!!! note "Los siguientes requisitos pueden desarrollarse progresivamente durante la implementación."
+!!! note "Los siguientes requisitos pueden desarrollarse progresivamente durante la implantación."
 
 #### Administración
 
@@ -89,7 +89,7 @@ El código fuente puede ser descargado desde el (repositorio de GitHub).
 
 ## Documentación
 
-Además de la aplicación y los datos de prueba, existe numerosa documentación de apoyo para implementar la aplicación:
+Además de la aplicación y los datos de prueba, existe numerosa documentación de apoyo para implantar AIGAR:
 
 - [Software y datos de prueba]()
 - [Manual de usuario de AIGAR (Pendiente)]()
