@@ -139,6 +139,6 @@ Además de la aplicación y los datos de prueba, existe numerosa documentación 
 
 - [Repositorio de Github de AIGAR-Lecturas](https://github.com/iCarto/aigar-lecturas)
 - [Repositorio de Github de AIGAR-Escritorio](https://github.com/iCarto/aigar)
-- [Manual de usuario de AIGAR (Pendiente)]()
+<!-- - [Manual de usuario de AIGAR (Pendiente)]()
 - [Video manual de AIGAR-Lecturas (Pendiente)]()
-- [Video manual de AIGAR-Escritorio (Pendiente)]()
+- [Video manual de AIGAR-Escritorio (Pendiente)]() -->
