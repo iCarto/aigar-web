@@ -6,7 +6,7 @@ hide:
 
 # Inicio
 
-<!-- {% include "partials/hero.html" %} -->
+{% include "partials/hero.html" %}
 
 <div class="intro">{% include "partials/intro.html" %}</div>
 
