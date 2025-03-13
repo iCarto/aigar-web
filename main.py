@@ -125,7 +125,7 @@ def define_env(env):
         },
         {
             "name": "ACUA",
-            "email": "recepcion@acua.org.sv",
+            "email": "acua@acua.org.sv",
             "phone": "+503 2314 0837",
             "location": "Zaragoza, La Libertad, El Salvador",
             "url": "https://www.acua.org.sv/",
