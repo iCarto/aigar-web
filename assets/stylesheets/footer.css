@@ -1,0 +1,13 @@
+.md-footer {
+  margin-top: 3rem;
+}
+
+.md-footer-meta__counter {
+  display: flex;
+  align-items: center;
+}
+
+.md-footer-meta__counter img {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
