@@ -1,0 +1,8 @@
+.downloads__link {
+  display: inline-block;
+  margin: 1rem 0;
+}
+.material-symbols-outlined {
+  color: var(--md-accent-fg-color);
+  vertical-align: middle; /* Alineamos el icono verticalmente con el texto */
+}
