@@ -95,7 +95,7 @@ Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador
     <h4>Ejecutar la aplicación</h4>
     <ol>
       <li>Descomprime el fichero .zip descargado, y renombra la carpeta que contiene el fichero <code>db.sqlite3</code> a <code>aigar_data</code></li>
-      <li>Copia la carpeta <code>aigar_data</code> a <code>Mis Documentos</code>. El fichero <code>db.sqlite<code> debería acabar en una ruta cómo la siguiente <code>C:\Usuarios\&lt;MiUsuario&gt;\Mis Documentos\aigar_data\db.sqlite</code></li>
+      <li>Copia la carpeta <code>aigar_data</code> a <code>Mis Documentos</code>. El fichero <code>db.sqlite</code>code> debería acabar en una ruta cómo la siguiente <code>C:\Usuarios\&lt;MiUsuario&gt;\Mis Documentos\aigar_data\db.sqlite</code></li>
       <li>Haz doble clic en <code>AIGAR.exe</code> dentro de la carpeta donde descomprimiste la aplicación.</li>
     </ol>
   </li>
