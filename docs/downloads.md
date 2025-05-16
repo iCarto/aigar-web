@@ -83,7 +83,7 @@ Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador
 
     <h5>Opción 2: Base de datos de ejemplo</h5>
 
-<a href="https://github.com/iCarto/aigar-web/releases/download/250303/aigar_data_ejemplo.zip" class="downloads__link"><span class="material-symbols-outlined">download_for_offline</span> Descargar base de datos ficticia</a>
+<a href="https://github.com/iCarto/aigar-web/releases/download/250303/aigar_data_ejemplo.zip" class="downloads__link"><span class="material-symbols-outlined">download_for_offline</span> Descargar base de datos de ejemplo</a>
 
 <p>
 <strong>¿Qué contiene?</strong><br> - Un ejemplo pre-cargado de una Junta de Agua ficticia, útil para pruebas y exploración de la aplicación.
@@ -94,7 +94,10 @@ Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador
   <li>
     <h4>Ejecutar la aplicación</h4>
     <ol>
-    <li>Haz doble clic en <code>AIGAR.exe</code> dentro de la carpeta donde descomprimiste la aplicación.</li></ol>
+      <li>Descomprime el fichero .zip descargado, y renombra la carpeta que contiene el fichero <code>db.sqlite3</code> a <code>aigar_data</code></li>
+      <li>Copia la carpeta <code>aigar_data</code> a <code>Mis Documentos</code>. El fichero <code>db.sqlite<code> debería acabar en una ruta cómo la siguiente <code>C:\Usuarios\&lt;MiUsuario&gt;\Mis Documentos\aigar_data\db.sqlite</code></li>
+      <li>Haz doble clic en <code>AIGAR.exe</code> dentro de la carpeta donde descomprimiste la aplicación.</li>
+    </ol>
   </li>
 </ol>
 
