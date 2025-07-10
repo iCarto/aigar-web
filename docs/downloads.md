@@ -67,7 +67,7 @@ Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador
     <h4>Descargar la base de datos</h4>
 
     <h5>Opción 1: Base de datos vacía</h5>
-<a href="https://github.com/iCarto/aigar-web/releases/download/250303/aigar_data_vacia.zip" class="downloads__link"><span class="material-symbols-outlined">download_for_offline</span> Descargar base de datos vacía</a>
+<a href="https://github.com/iCarto/aigar-web/releases/download/250303/250303_aigar_data.zip" class="downloads__link"><span class="material-symbols-outlined">download_for_offline</span> Descargar base de datos vacía</a>
 
 <p>
 <strong>¿Qué contiene?</strong><br> - Una base de datos vacía, pero con la estructura lista para configurar los datos de cada Junta de Agua.<br> - Debe descomprimirse en la carpeta <strong>Mis Documentos</strong>, por ejemplo:
