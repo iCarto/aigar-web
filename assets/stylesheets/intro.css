@@ -1,0 +1,9 @@
+.intro {
+  margin-top: 1rem;
+}
+
+.intro__button--container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
