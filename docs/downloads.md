@@ -6,6 +6,13 @@ hide:
 
 # Descargas
 
+### Documentación
+
+
+- [Manual de usuario de la aplicación](./assets/documents/250616_Manual_AIGAR.pdf)
+- [Documento de sistematización del proyecto](./assets/documents/250616_Sistematizacion_AIGAR.pdf)
+
+
 ### AIGAR-Lecturas
 
 Sigue estos pasos para instalar la aplicación AIGAR-Lecturas en tu celular.
@@ -135,12 +142,17 @@ Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador
 - [ ] Catastro único y actualizado de usuarios
 - [ ] Herramientas de gestión administrativa
 
-## Documentación y código
+#### Rendición de cuentas.
 
-Además de la aplicación y los datos de prueba, existe numerosa documentación de apoyo para implantar AIGAR:
+- [ ] Junta directiva y Junta de vigilancia
+- [ ] Asamblea de socios
+
+
+## Código
+
+El código fuente de la aplicación de escritorio, móvil y de esta web puede ser consultado en:
 
 - [Repositorio de Github de AIGAR-Lecturas](https://github.com/iCarto/aigar-lecturas)
 - [Repositorio de Github de AIGAR-Escritorio](https://github.com/iCarto/aigar)
-<!-- - [Manual de usuario de AIGAR (Pendiente)]()
-- [Video manual de AIGAR-Lecturas (Pendiente)]()
-- [Video manual de AIGAR-Escritorio (Pendiente)]() -->
+- [Repositorio de Github de esta web](https://github.com/iCarto/aigar-web)
+

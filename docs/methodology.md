@@ -6,4 +6,4 @@ hide:
 
 # Metodología
 
-{{image("assets/images/Foto_8_a.png")}}
+{{image("assets/images/metodologia.jpg")}}
