@@ -22,9 +22,10 @@ theme:
 nav:
   - Inicio: index.md
   - Qué es AIGAR: about.md
-  - Descargas: downloads.md
   - Metodología: methodology.md
   - Estado del proyecto: project.md
+  - Descargas: downloads.md
+  - Documentación: docs.md
   - Contacto: contact.md
 
 extra:

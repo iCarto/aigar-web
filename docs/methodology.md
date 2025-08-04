@@ -6,4 +6,4 @@ hide:
 
 # Metodología
 
-{{image("assets/images/metodologia.jpg")}}
+<div class="first-section-wrapper">{{image("assets/images/metodologia.jpg")}}</div>

@@ -50,6 +50,34 @@ def define_env(env):
         )
         return Markup(html)
 
+    @env.macro
+    def media(media_path, media_alt="", media_type="video", hide_caption=False):
+        caption_html = (
+            f'<div class="media-caption">{media_alt}</div>' if not hide_caption else ""
+        )
+
+        if media_type == "video":
+            media_html = dedent(
+                f"""
+                <div class="media-wrapper">
+                    <iframe src="{media_path}" title="{media_alt}" allowfullscreen
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    {caption_html}
+                </div>
+                """
+            )
+        else:
+            media_html = dedent(
+                f"""
+                <div class="media-wrapper">
+                    <img src="{fix_url(media_path)}" alt="{media_alt}" class="text-media__image">
+                    {caption_html}
+                </div>
+                """
+            )
+        return Markup(media_html)
+
     env.variables.stats_items = [
         {"icon": "valve", "value": "7", "label": "Sistemas de agua"},
         {"icon": "communities", "value": "33", "label": "Comunidades"},

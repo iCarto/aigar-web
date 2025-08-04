@@ -4,16 +4,7 @@ hide:
   - toc
 ---
 
-# Descargas
-
-### Documentación
-
-
-- [Manual de usuario de la aplicación](./assets/documents/250616_Manual_AIGAR.pdf)
-- [Documento de sistematización del proyecto](./assets/documents/250616_Sistematizacion_AIGAR.pdf)
-
-
-### AIGAR-Lecturas
+# AIGAR-Lecturas
 
 Sigue estos pasos para instalar la aplicación AIGAR-Lecturas en tu celular.
 
@@ -49,7 +40,7 @@ Sigue estos pasos para instalar la aplicación AIGAR-Lecturas en tu celular.
       - [ ] Smartphone con Android 11.0 o superior (la cantidad dependerá de las personas realicen la revisión de consumos)
       - [ ] Cualquier marca con antigüedad de fabricación menor a 5 años
 
-### AIGAR-Escritorio
+## AIGAR-Escritorio
 
 Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador.
 
@@ -74,6 +65,7 @@ Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador
     <h4>Descargar la base de datos</h4>
 
     <h5>Opción 1: Base de datos vacía</h5>
+
 <a href="https://github.com/iCarto/aigar-web/releases/download/250303/250303_aigar_data.zip" class="downloads__link"><span class="material-symbols-outlined">download_for_offline</span> Descargar base de datos vacía</a>
 
 <p>
@@ -142,11 +134,10 @@ Sigue estos pasos para descargar e instalar la aplicación AIGAR en tu ordenador
 - [ ] Catastro único y actualizado de usuarios
 - [ ] Herramientas de gestión administrativa
 
-#### Rendición de cuentas.
+#### Rendición de cuentas
 
 - [ ] Junta directiva y Junta de vigilancia
 - [ ] Asamblea de socios
-
 
 ## Código
 
@@ -155,4 +146,3 @@ El código fuente de la aplicación de escritorio, móvil y de esta web puede se
 - [Repositorio de Github de AIGAR-Lecturas](https://github.com/iCarto/aigar-lecturas)
 - [Repositorio de Github de AIGAR-Escritorio](https://github.com/iCarto/aigar)
 - [Repositorio de Github de esta web](https://github.com/iCarto/aigar-web)
-
